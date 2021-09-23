@@ -54,3 +54,12 @@ Read in  SAS file
 pulse_df = read_sas("./data_import_examples/public_pulse_data.sas7bdat")
 ```
 
+## comparison with base R
+
+what about `read.csv`
+```{r}
+litter_base = read.csv("data_import_examples/FAS_litters.csv")
+litters_readr = read_csv("data_import_examples/FAS_litters.csv")
+litter_base
+litters_readr
+```
